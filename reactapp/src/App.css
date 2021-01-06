@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.leaflet-container {
+height: 400px;
+}
+
+input,
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+
+.jumbo {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  opacity: 0.6;
+  background-color: #ffffff;
+}
+
+.jumbo:hover {
+  opacity: 1;
+}
+
+.caroussel{
+  height: inherit;
+  padding-top: 2%;
+  padding-left: 8%;
+  width: 50%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background {
+  background-image: url('img/Quantrids_Slovinsky_2048.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.backgroundSign {
+  background-image: url('img/GeminidMeteorsStePelle1024.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.backgroundTrip {
+  background-image: url('img/VolcanicConjunction_Sojuel_1500.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.custom-tag-1 {
+  max-width: 100%;
+  background-image: url('img/M31Horizon_Ferrarino_2048.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.custom-tag-2 {
+  max-width: 100%;
+  background-image: url('img/Solar_System_NiceModel.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.custom-tag-3 {
+  max-width: 100%;
+  background-image: url('img/A Plane Above The Clouds.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.background-exp {
+  background-image: url("img/PIA02973_orig.jpg");
+  height: 100vh;
+  background-size: cover;
+  transform: scale(1);
+  position:relative;
+  left:0;
+  top:0;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.background-map {
+  background-image: url('img/IMG_20201124052235_9280.jpg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-map2 {
+  background-image: url('img/PIA20727PlutoNight.jpg');
+  height: fit-content;
+  padding-bottom: 50px;
+  background-size: cover;
+}
+
+.background-jup {
+  background-image: url('img/jupiter.jpg');
+  height: 100vh;
+  background-size: cover;
+  position:relative;
+  left:0;
+  top:0;
+  -webkit-transform-origin: 90% 40%;
+  transform-origin: 90% 40%;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.flex {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  font-size: 20px; 
+  z-index: 2;
+}
