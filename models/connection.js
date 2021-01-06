@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var URI = require('URI');
 
 var options = {
     connectTimeoutMS: 5000,
@@ -6,7 +7,7 @@ var options = {
     useNewUrlParser: true,
 }
 
-mongoose.connect('mongodb+srv://romane:roma04@cluster0.bu6a5.mongodb.net/rockarocket?retryWrites=true&w=majority',
+mongoose.connect(URI,
     options,
     function(err){
         console.log(err);
