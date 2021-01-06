@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var URI = require('URI');
+const URI = require('./URI');
 
 var options = {
     connectTimeoutMS: 5000,
