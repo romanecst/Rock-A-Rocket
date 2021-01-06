@@ -10,7 +10,7 @@
 
 # production
 /build
-/models/URI.js
+# /models/URI.js
 
 # misc
 .DS_Store
