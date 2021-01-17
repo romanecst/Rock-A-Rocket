@@ -116,7 +116,7 @@ function Sign(props) {
               <InputGroupAddon addonType="prepend">
                 <InputGroupText>**</InputGroupText>
               </InputGroupAddon>
-              <Input placeholder="Password" onChange={(e)=>setPassword(e.target.value)} value={password} />
+              <Input placeholder="Password" type='password' onChange={(e)=>setPassword(e.target.value)} value={password} />
             </InputGroup>
             {tabErrorsSignup}{tabErrorsSignin}
               </div>
